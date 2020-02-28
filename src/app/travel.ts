@@ -1,0 +1,50 @@
+export const travels = [
+ {
+   city: 'Vienna',
+   description: "Vienna is the capital of Austria",
+   startDate: "08.08.2020",
+   price: 199,
+   duration: "2 Weeks",
+   image: '../assets/images/vienna.jpg',
+ },
+ {
+   city: 'Paris',
+   description: "Paris is the capital of France",
+   startDate: "09.07.2020",
+   price: 299,
+   duration: "3 Weeks",
+   image: '../assets/images/paris.jpg',
+ },
+ {
+   city: 'Vancouver',
+   description: "Vancouver is not the capital of Canada",
+   startDate: "10.06.2020",
+   price: 399,
+   duration: "2 Weeks",
+   image: '../assets/images/vancouver.jpg',
+ },
+ {
+   city: 'Beijing',
+   description: "Beijing is the capital of China",
+   startDate: "11.05.2020",
+   price: 499,
+   duration: "1 Week",
+   image: '../assets/images/beijing.jpg',
+ },
+  {
+   city: 'St.Peterburg',
+   description: "St.Petersburg is not the capital of Russia",
+   startDate: "12.04.2020",
+   price: 599,
+   duration: "2 Weeks",
+   image: '../assets/images/stpetersburg.jpg',
+ },
+  {
+   city: 'Reykjavik',
+   description: "Reykjavik is hard to remember how to write",
+   startDate: "13.03.2020",
+   price: 699,
+   duration: "1 Week",
+   image: '../assets/images/reykjavik.jpg',
+ }
+];

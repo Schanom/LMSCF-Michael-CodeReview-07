@@ -1,0 +1,9 @@
+<h2>Travel Details</h2>
+
+<div *ngIf="travel">
+	<h3>{{ travel.name }}</h3>
+	<h4>{{ travel.price | currency }}</h4>
+	<p>{{ travel.description }}</p>
+
+	<button (click)="addToCart(travel)">Buy</button>
+</div>

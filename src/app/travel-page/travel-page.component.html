@@ -1,0 +1,20 @@
+<h1 class="text-center mb-5">Travel</h1>
+<div class="row justify-content-between w-100">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" *ngFor="let travel of travels; index as travelId">
+		<img class="mw-100" src={{travel.image}} alt="travelPicture">
+		<h3>Destination: 
+			<a [title]="travel.city + ' details'">
+				{{ travel.city }}
+			</a>
+		</h3>
+		<h3>
+		</h3>
+		<p>Description: {{ travel.description }}</p>
+		<p>Start Date: {{ travel.startDate }}</p>
+		<p>Duration: {{ travel.duration }}</p>
+		<p>Price: € {{ travel.price }},-</p>
+		<a [routerLink]="['/travels', travelId]">
+			Click here to book it
+		</a>
+	</div>
+</div>
